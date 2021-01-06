@@ -6,39 +6,42 @@
 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-#--------------------------
+# --------------------------
+title: tw00t                          # the main title
 
-title: Krishnan S N                          # the main title
-
-tagline: Security enthusiast. <br>Sophomore at IIT Patna.  # it will display as the sub-title
+tagline: A journey of hacking         # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  ooh, whomst have stumbled upon my website.
+  starter 
 
-# Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://lordlabuckdas.github.io'
+# fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
+url: 'https://tw00t.github.io'
 
-author: Krishnan S N                  # change to your full name
+author: tw00t                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
-  username: lordlabuckdas             # change to your github username
+  username: tw00t             # change to your github username
 
 twitter:
-  username:             # change to your twitter username
+  username: tw00t            # change to your twitter username
 
 social:
-  name: Krishnan S N                  # it will shows as the copyright owner in Footer
-  email:              # change to your email address
+  name: tw00t                 # it will shows as the copyright owner in Footer
+  # email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/lordlabuckdas       # change to your github homepage
+    - https://twitter.com/tw00t      # change to your twitter homepage
+    - https://github.com/tw00t       # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
-google_site_verification: SDL-QIMhIBwqdmefuhNWQ2T4qT8UWglsHHJtnO3OglM # change to your verification string
+#google_site_verification: google_meta_tag_verification # change to your verification string
+
 
 #--------------------------
-
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
@@ -193,3 +196,4 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+
